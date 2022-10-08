@@ -39,9 +39,12 @@ void printarray(int arr[], int size){
     return 0;
 
 }*/
-int main(){n
+
+
+
+int main(){
     int n=7;
-    int val=1;
+    int val=3;
     int arr[n];
      for (int i=0; i<n; i++){
         arr[i]=val;
