@@ -3,8 +3,9 @@ using namespace std;
 int getmin(int num[],int n){
     int min=INT32_MAX;
     for(int i=0; i<n; i++){
-        min
+        min=num[i];
     }
+    return min;
 }
 int getmax(int num[], int n){
     int max=INT32_MIN;
@@ -26,6 +27,8 @@ int main(){
         cin>>num[i];
     }
     cout<<"Maximum value is "<<getmax(num,size)<<endl;
+        cout<<"Minimum value is "<<getmin(num,size)<<endl;
+
 
 
 }
