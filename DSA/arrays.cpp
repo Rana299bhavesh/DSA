@@ -6,7 +6,7 @@ void printarray(int arr[], int size){
         cout<<arr[i]<<' ';
 
     }
-    cout<<"printing done"<<endl;
+    cout<<"printing done "<<endl;
 }
 /*int main(){
     //declaring an array
