@@ -41,7 +41,7 @@ void printarray(int arr[], int size){
 }*/
 
 
-
+// Code to put same value in entire array
 int main(){
     int n=7;
     int val=3;
