@@ -39,7 +39,7 @@ void printarray(int arr[], int size){
     return 0;
 
 }*/
-int main(){
+int main(){n
     int n=7;
     int val=1;
     int arr[n];
