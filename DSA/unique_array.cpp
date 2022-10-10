@@ -26,9 +26,10 @@ int main(){
     for(int i=0;i<n;i++){
         cin>>arr[i];
 
-    }cout<< "The unique numbers are "<<findUnique(arr,n)<<endl;
+    }
+    cout<< "The unique number is "<<findUnique(arr,n)<<endl;
     
-
+    return 0;
 
 
 
