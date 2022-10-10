@@ -1,0 +1,41 @@
+#include<iostream>
+using namespace std;
+
+/*void printarray(int arr[], int n){
+    for(int i=0; i<n; i++){
+        cout<<arr[i]<<" ";
+
+    }cout<<endl;
+
+}*/
+
+int findUnique(int arr[], int n){
+    
+     int ans =0;
+       for(int i=0; i<n ; i++) {
+        ans =ans^arr[i];
+       }
+       return ans;
+}
+
+int main(){
+
+    int arr[100],n;
+    cout<<" The number of elements are "<<" ";
+    cin>>n;
+    for(int i=0;i<n;i++){
+        cin>>arr[i];
+
+    }cout<< "The unique numbers are "<<findUnique(arr,n)<<endl;
+    
+
+
+
+
+
+
+
+
+
+
+}
