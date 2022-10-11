@@ -23,4 +23,4 @@ int pivot(int arr[], int n){
 int main(){
     int arr[5]={8,10,17,1,3};
     cout<< " pivot is "<< pivot(arr,5)<<endl;  
-}
+} 

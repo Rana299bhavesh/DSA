@@ -1,15 +1,9 @@
 #include<iostream>
 using namespace std;
 
-/*void printarray(int arr[], int n){
-    for(int i=0; i<n; i++){
-        cout<<arr[i]<<" ";
 
-    }cout<<endl;
 
-}*/
-
-int findUnique(int arr[], int n){
+bool findUnique(int arr[], int n){
     
      int ans =0;
        for(int i=0; i<n ; i++) {
