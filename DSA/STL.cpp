@@ -99,9 +99,9 @@ int main(){
 
     }
 
-    cout<<"Before erase"<<d.size()<<endl;
+    cout<<"Before erase "<<d.size()<<endl;
     d.erase(d.begin(),d.begin()+1);
-     cout<<"after erase"<<d.size()<<endl;
+     cout<<"after erase "<<d.size()<<endl;
 
 
 
