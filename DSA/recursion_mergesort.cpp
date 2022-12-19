@@ -38,7 +38,7 @@ void merge(int *arr, int s, int e){
 
     while(index1<len1){
         arr[k++]= first[index1++];
-    }
+    }  
     while(index2<len2){
         arr[k++]= second[index2++];
     }

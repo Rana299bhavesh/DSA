@@ -24,7 +24,7 @@ int main(){
     cout<<endl;
     bool ispalindrome= checkpalindrome(name, 0, name.length()-1);
     if(ispalindrome){
-        cout<<"PAlindrome hai "<<endl;
+        cout<<"Palindrome hai "<<endl;
 
     }
     else{

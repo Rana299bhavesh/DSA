@@ -23,9 +23,7 @@ int main(){
     int n=5;
     cout<< "Before" << n << endl;
     update2(n);
-    cout<< "After" << n << endl;
-    
-    cout<< "Before" << n << endl;
+    cout<< "After" << n << endl;   
 
 
     return 0;

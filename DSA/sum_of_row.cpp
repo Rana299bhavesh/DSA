@@ -3,7 +3,7 @@ using namespace std;
 
 void printsum(int arr[][4], int row, int col){
     cout<< "Printing the sum "<<endl;
-    for(int i=0; i<3; i++){
+    for(int i=0; i<3; i++){ 
         int sum=0;
         for(int j=0; j<4; j++){
 
@@ -14,6 +14,7 @@ void printsum(int arr[][4], int row, int col){
         
     }
 }
+  
 
 int main(){
     
