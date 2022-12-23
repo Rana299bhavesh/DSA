@@ -8,7 +8,7 @@ void printarray(int arr[], int n){
     cout<<endl;
 }
 
-void sortone(int arr[], int n){
+void sortone (int arr[], int n){
     int i=0, j=n;
     while(i<j){
         while(arr[i]==0 && i<j) {
