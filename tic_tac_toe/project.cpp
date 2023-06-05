@@ -17,9 +17,8 @@ void display_board(){
     cout<<"\t\t  "<<arr[1][0]<<"  |  "<<arr[1][1]<<"  |  "<<arr[1][2]<<"  \n";
     cout<<"\t\t_____|_____|_____\n";
     cout<<"\t\t     |     |     \n";
-     cout<<"\t\t  "<<arr[2][0]<<"  |  "<<arr[2][1]<<"  |  "<<arr[2][2]<<"  \n";
+    cout<<"\t\t  "<<arr[2][0]<<"  |  "<<arr[2][1]<<"  |  "<<arr[2][2]<<"  \n";
     cout<<"\t\t     |     |     \n";
-
 }
 
 void player_turn(){
